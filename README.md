@@ -11,18 +11,18 @@ This project is an intuitive web application that allows users to upload meeting
 - Implements **real-time audio upload and analysis**, with automatic storage and backup of relevant files
 
 ## Usage Workflow
-1. Open the web interface
+### Step 1. Open the web interface
 Prepare the audio file you want to convert into meeting notes and open the web interface.
-![image]()
-2. Select an audio file
+![Web Interface](screenshot/1_web%20interface.png)<br><br>
+### Step 2. Select an audio file
 Click the “Select Audio File” button and choose a file from your device. The file name will be displayed immediately, confirming your selection.
-![image]()
-3. Upload and analyze
+![Select an Audio File](screenshot/2_Select%20an%20audio%20file.png)<br><br>
+### Step 3. Upload and analyze
 Click the “Upload and Analyze” button. The status message will show “Uploading, please wait…”. Within moments, the system will complete transcription and summarization.
-![image](screenshot_upload.png)
-4. View results
+![Upload and Analyze](screenshot/3_Upload%20and%20analyze.png)<br><br>
+### Step 4. View results
 The transcribed text and automatically generated summary are displayed, enabling quick understanding of the meeting content.
-![image](screenshot_upload.png)
+![View Results](screenshot/4_View%20results.png)<br><br>
 
 ## Model Source
 - Whisper-Medium: [Hugging Face](https://huggingface.co/openai/whisper-medium)
