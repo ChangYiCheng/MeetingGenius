@@ -40,7 +40,7 @@ The transcribed text and automatically generated summary are displayed, enabling
 ![Upload and Analyze](screenshot/5_3_view_results_Japanese.png)<br><br>
 ![Upload and Analyze](screenshot/5_4_view_results_German.png)<br><br>
 
-## Model Source
+## Reference
 - Whisper-Medium: [Hugging Face](https://huggingface.co/openai/whisper-medium)
 - Llama-3.2-3B-Instruct: [Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
 
