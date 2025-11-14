@@ -17,28 +17,15 @@ Prepare the audio file you want to convert into meeting notes and open the web i
 ### Step 2. Select language
 Select your preferred language. Currently, Traditional Chinese, English, Japanese, and German are supported. The meeting summary will be generated in your chosen language.
 ![Select an Audio File](screenshot/2_select_language.png)<br><br>
-![Select an Audio File](screenshot/2_1_select_language_Chinese.png)<br><br>
-![Select an Audio File](screenshot/2_2_select_language_English.png)<br><br>
-![Select an Audio File](screenshot/2_3_select_language_Japanese.png)<br><br>
-![Select an Audio File](screenshot/2_4_select_language_German.png)<br><br>
 ### Step 3. Select an audio file
 Click the "Select Audio File" button and choose a file from your device. The file name will be displayed immediately, confirming your selection.
-![Upload and Analyze](screenshot/3_1_select_an_audio_file_Chinese.png)<br><br>
 ![Upload and Analyze](screenshot/3_2_select_an_audio_file_English.png)<br><br>
-![Upload and Analyze](screenshot/3_3_select_an_audio_file_Japanese.png)<br><br>
-![Upload and Analyze](screenshot/3_4_select_an_audio_file_German.png)<br><br>
 ### Step 4. Upload and analyze
 Click the "Upload and Analyze" button. The status will display a "Uploading, please wait..." message, and the system will immediately perform transcription and generate the summary.
-![Upload and Analyze](screenshot/4_1_upload_and_analyze_Chinese.png)<br><br>
 ![Upload and Analyze](screenshot/4_2_upload_and_analyze_English.png)<br><br>
-![Upload and Analyze](screenshot/4_3_upload_and_analyze_Japanese.png)<br><br>
-![Upload and Analyze](screenshot/4_4_upload_and_analyze_German.png)<br><br>
 ### Step 5. View results
 The transcribed text and automatically generated summary are displayed, enabling quick understanding of the meeting content.
-![Upload and Analyze](screenshot/5_1_view_results_Chinese.png)<br><br>
 ![Upload and Analyze](screenshot/5_2_view_results_English.png)<br><br>
-![Upload and Analyze](screenshot/5_3_view_results_Japanese.png)<br><br>
-![Upload and Analyze](screenshot/5_4_view_results_German.png)<br><br>
 
 ## 📚 Reference
 - Whisper-Medium: [Hugging Face](https://huggingface.co/openai/whisper-medium)
