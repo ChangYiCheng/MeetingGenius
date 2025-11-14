@@ -1,16 +1,16 @@
 # MeetingGenius
 
-## Introduction
+## 🧠 Introduction
 This project is an intuitive web application that allows users to upload meeting audio. It leverages **LLM model** to perform **real-time speech-to-text transcription** and **content summarization**, presenting high-quality textual results on the front end and effectively enhancing meeting information management efficiency.
 
-## Key Features
+## 🚀 Key Features
 - Utilizes the **Whisper-Medium** model for high-accuracy speech-to-text transcription
 - Leverages the **Llama-3.2-3B-Instruct** model for automated summary generation
 - Backend built with **FastAPI** to create a high-performance API and integrate frontend and backend
 - Frontend developed with **HTML/CSS/JavaScript**, featuring a clean and intuitive interface
 - Implements **real-time audio upload and analysis**, with automatic storage and backup of relevant files
 
-## Usage Workflow
+## ⭐ Usage Workflow
 ### Step 1. Open the web interface
 Prepare the audio file you want to convert into meeting notes and open the web interface.
 ![Web Interface](screenshot/1_web_interface.png)<br><br>
