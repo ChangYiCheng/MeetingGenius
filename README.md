@@ -1,38 +1,32 @@
 # MeetingGenius
 
 ## 🧠 Introduction
-This project is an intuitive web application that allows users to upload meeting audio. It leverages **LLM model** to perform **real-time speech-to-text transcription** and **content summarization**, presenting high-quality textual results on the front end and effectively enhancing meeting information management efficiency.
+Meeting Genius is an advanced meeting assistant that integrates **Agentic AI** with the **Model Context Protocol (MCP)**. Beyond standard conversational capabilities, it transforms local Large Language Models (LLMs) into autonomous agents equipped with "reasoning" and "actionable" powers. The system facilitates an end-to-end decision-making workflow, seamlessly bridging the gap between complex task comprehension and automated tool invocation.
 
 ## 🚀 Key Features
 - Utilizes the **Whisper-Medium** model for high-accuracy speech-to-text transcription
 - Leverages the **Llama-3.2-3B-Instruct** model for automated summary generation
-- Backend built with **FastAPI** to create a high-performance API and integrate frontend and backend
-- Frontend developed with **HTML/CSS/JavaScript**, featuring a clean and intuitive interface
-- Implements **real-time audio upload and analysis**, with automatic storage and backup of relevant files
+- Employs the **Qwen2.5-7B-Instruct** model to handle general Q&A with high-performance linguistic reasoning.
+- Empower Autonomous Decision Workflows by leveraging the **MCP** protocol to enable models to decompose complex objectives and execute precise tool calls independently.
+- Architect a High-Performance System using a decoupled **FastAPI** backend and **Vue** frontend to deliver low-latency inference services with real-time request monitoring.
+- Drive Cross-Platform Automation through native integration with **Notion** and **Google Workspace** to automate meeting summary archiving, cloud backups, and notification tasks.
 
 ## ⭐ Usage Workflow
-This section demonstrates the step-by-step process for converting audio files into meeting notes using the web interface.
+This section demonstrates general Q&A and tool-invocation capabilities using the web interface.
 
-### Step 1. 🖥 Open the web interface
-Prepare the audio file you want to convert into meeting notes and open the web interface.
-![Web Interface](screenshot/1_web_interface.png)
+### 🌐 Open the web interface
+Launch the intuitive web interface to begin interacting with the AI agent, featuring real-time status updates and a clean conversational layout.
+![Open the web interface](screenshot/1_web_interface.png)
 
-### Step 2. 🌐 Select language
-Select your preferred language. Currently, Traditional Chinese, English, Japanese, and German are supported. The meeting summary will be generated in your chosen language.
-![Select an Audio File](screenshot/2_select_language.png)
+### 💬 Input your inquiry
+Observe the core reasoning capabilities of the model as it processes natural language inquiries and delivers precise, context-aware responses without external tool dependency.
+![Input your inquiry](screenshot/2_general_inquiry.png)
 
-### Step 3. 📁 Select an audio file
-Click the "Select Audio File" button and choose a file from your device. The file name will be displayed immediately, confirming your selection.
-![Upload and Analyze](screenshot/3_2_select_an_audio_file_English.png)
-
-### Step 4. ⏱ Upload and analyze
-Click the "Upload and Analyze" button. The status will display a "Uploading, please wait..." message, and the system will immediately perform transcription and generate the summary.
-![Upload and Analyze](screenshot/4_2_upload_and_analyze_English.png)
-
-### Step 5. 📄 View results
-The transcribed text and automatically generated summary are displayed, enabling quick understanding of the meeting content.
-![Upload and Analyze](screenshot/5_2_view_results_English.png)
+### 🧠 Submit a query
+Witness the AI agent in action as it parses complex natural language commands and performs automated operations across Notion and Google Workspace.
+![Submit a query](screenshot/3_query_with_tools.png)
 
 ## 📚 Reference
+- Qwen2.5-7B-Instruct: [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct))
 - Llama-3.2-3B-Instruct: [Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
 - whisper-medium: [Hugging Face](https://huggingface.co/openai/whisper-medium)
