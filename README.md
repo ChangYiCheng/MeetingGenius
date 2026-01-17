@@ -27,6 +27,6 @@ Witness the AI agent in action as it parses complex natural language commands an
 ![Submit a query](screenshot/3_query_with_tools.png)
 
 ## 📚 Reference
-- Qwen2.5-7B-Instruct: [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct))
+- Qwen2.5-7B-Instruct: [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
 - Llama-3.2-3B-Instruct: [Hugging Face](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
 - whisper-medium: [Hugging Face](https://huggingface.co/openai/whisper-medium)
